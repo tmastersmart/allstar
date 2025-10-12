@@ -109,7 +109,7 @@ function installa($in){
 global $docRouteP,$path;
 
 $path  = "/etc/asterisk/local/mm-software";if(!is_dir($path)){ mkdir($path, 0755);}        
-$repoURL= "https://raw.githubusercontent.com/tmastersmart/allstar/main";
+$repoURL= "https://raw.githubusercontent.com/tmastersmart/allstar/refs/heads/main/";
 $pathR = "$path/repo";  if(!is_dir($pathR)){ mkdir($pathR, 0755);}
 $pathB = "$path/backup";if(!is_dir($pathB)){ mkdir($pathB, 0755);}
 
