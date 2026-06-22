@@ -6,3 +6,7 @@ It fixes the acuweather problem and converts the weather to the NWS CAP feeds.
 It gets its weather by your LAT/LON making it track alerts only in your location
 
 It suppoers alerts forcast 
+
+This has all been moved to CAP-WARN 
+
+
