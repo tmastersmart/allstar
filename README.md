@@ -7,6 +7,6 @@ It gets its weather by your LAT/LON making it track alerts only in your location
 
 It suppoers alerts forcast 
 
-This has all been moved to CAP-WARN 
+This has all been moved to CAP-WARN Cap-warn will contain all these projects now.
 
 
