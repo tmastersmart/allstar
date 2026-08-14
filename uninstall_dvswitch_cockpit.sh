@@ -1,4 +1,28 @@
 #!/usr/bin/env bash
+###############################################################################
+# DVSwitch Cockpit Uninstaller
+#
+# This script removes DVSwitch Cockpit and restores Apache/DVSwitch settings
+# that the Cockpit installer may have modified.
+#
+# USAGE:
+#   sudo ./uninstall_dvswitch_cockpit.sh
+#       Performs a full uninstall.
+#
+#   sudo ./uninstall_dvswitch_cockpit.sh --dry-run
+#       Shows what WOULD be removed, but makes NO changes.
+#
+# DRY RUN MODE:
+#   Use --dry-run to safely preview all actions. Nothing is deleted or changed.
+#   This is ideal for verifying what will be removed before running the real
+#   uninstall.
+#
+#  License No Copyright
+#  https://creativecommons.org/publicdomain/zero/1.0/
+#
+#
+
+
 set -euo pipefail
 
 APP_NAME="DVSwitch Cockpit Uninstaller"
